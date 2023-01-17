@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: sans-serif;
+    /* font-family: Work Sans; */
     /* margin: 0 auto; */
 }
 /* header section stylling */
@@ -20,7 +21,7 @@
     font-weight: 700;
     font-size: 45px;
     width: 302px;
-height: 53px;
+    height: 53px;
     color: #131313;
     margin-left: 228px;
     margin-top: 55px;
@@ -47,6 +48,7 @@ height: 53px;
     display: grid;
     place-items: center;
     margin-left: 30px;
+    color: #FF900E1A 10%;
     /* align-items: center; */
 }
 .header-info{
@@ -88,7 +90,7 @@ height: 53px;
 .header-image{
     border-radius: 8px;
     margin-top: 50px;
-  margin-bottom: 277px;
+    margin-bottom: 100px;
 }
 
 /* @media screen and(max-width:576px) {
@@ -99,11 +101,56 @@ height: 53px;
 
 } */
 
-.image{
-    margin-left: 300px;
-}
-.image-second-sec{
-    
+
+/* third section stylling */
+.header-third-sec{
+
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+.image-third-sec{
+    margin-left: 271px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* overflow: hidden; */
+    /* position: relative; */
+    gap: 25px;
+    border-radius: 8px;
+    width: 342px;
+    height: 342px;
+}
+.third-sec-info{
+    margin-left: 250px;
+}
+
+/* header */
+.third-sec-header{
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+}
+.Q{
+    color: #727272;
+    font-weight: 500;
+}
+.feature{
+    color: #FF900E;
+
+}
+/* end header */
+.third-sec-para{
+    margin-top: 26px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 537px;
+    height: 78px;
+}
+
+/* ten year section  */
+
+.tenyear-section{
+    margin-top: 170px;
+
 }
