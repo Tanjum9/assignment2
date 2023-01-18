@@ -245,7 +245,20 @@ header {
 .some-fact {
     width: 80%;
     margin: auto;
+    align-items: center;
+    text-align: center;
 }
+
+.some-title {
+    font-weight: 700;
+    font-size: 45px;
+    /* width: 50%; */
+    width: 100%;
+}
+/* .some-fact h2 {
+    
+    width: 100%;
+} */
 
 .sponsor-parts {
 
@@ -279,11 +292,13 @@ header {
     font-weight: 600;
     font-size: 20px;
 }
+
 /* animation */
-.animation:hover{
+.animation:hover {
     transform: rotate(-60deg);
     transition: transform 0.2s ease-in;
 }
+
 /* --------- */
 
 /* our sponsor part */
@@ -320,12 +335,9 @@ header {
     justify-content: center;
     color: #424242;
     font-weight: 400;
-font-size: 20px;
-    
+    font-size: 20px;
+
 }
-
-
-
 
 /* sponsor part responsive */
 @media screen and (max-width:576px) {
@@ -333,6 +345,7 @@ font-size: 20px;
         display: block;
         flex-direction: row;
     }
+
     .sponsor-part1,
     .sponsor-part2,
     .sponsor-part3,
@@ -349,7 +362,10 @@ font-size: 20px;
 /* last image part responsive */
 
 @media screen and (max-width:576px) {
-    .last-image, .footer, .last{
+
+    .last-image,
+    .footer,
+    .last {
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -357,17 +373,16 @@ font-size: 20px;
         /* justify-content: space-evenly; */
         margin: 10px 0;
     }
-    .last h2{
+
+    .last h2 {
         width: 50%;
         margin: auto 10px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .last-image img{
+
+    .last-image img {
         margin-bottom: 30px;
     }
 }
-
-
-    
